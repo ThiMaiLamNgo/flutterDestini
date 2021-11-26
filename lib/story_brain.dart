@@ -78,7 +78,8 @@ class StoryBrain {
       _storyNumber = 5;
     } else if (choiceNumber == 2 && _storyNumber == 2) {
       _storyNumber = 4;
-    } else if (_storyNumber == 3 || _storyNumber == 4 || _storyNumber == 5) {
+    } else if (_storyNumber >= 3) {
+      //_storyNumber == 3 || _storyNumber == 4 || _storyNumber == 5
       //restart();
       _storyNumber = 0;
     }
@@ -92,25 +93,16 @@ class StoryBrain {
 
 //TODO: Step 27 - Create a method called buttonShouldBeVisible() which checks to see if storyNumber is 0 or 1 or 2 (when both buttons should show choices) and return true if that is the case, else it should return false.
   /*bool buttonShouldBeVisible() {
+   //c1:
     if (_storyNumber <= 2) {
       return true;
     } else {
       return false;
     }
-    /*if (_storyData[_storyNumber].choice2.isEmpty) {
-      return false;
-    } else {
-      return true;
-    }*/
+   // c2:
+
     //return _storyNumber <= 2 ? true : false;
-    /*if (_storyNumber == 0 || _storyNumber == 1 || _storyNumber == 2) {
-      return _storyData[_storyNumber].choice2 !=
-          ''; //_storyData[_storyNumber].choice2;
-    } else {
-      return false;
-    }
-     */
-    /*
-     */
-  }*/
+
+  }
+  */
 }
