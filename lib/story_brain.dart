@@ -2,7 +2,7 @@
 //import 'package:flutter/widgets.dart';
 
 import 'package:flutter/material.dart';
-import 'package:fluttertoast/fluttertoast.dart';
+//import 'package:fluttertoast/fluttertoast.dart';
 
 import 'story.dart';
 
@@ -92,17 +92,15 @@ class StoryBrain {
 //TODO: Step 20 - Download the story plan here: https://drive.google.com/uc?export=download&id=1KU6EghkO9Hf2hRM0756xFHgNaZyGCou3
 
 //TODO: Step 27 - Create a method called buttonShouldBeVisible() which checks to see if storyNumber is 0 or 1 or 2 (when both buttons should show choices) and return true if that is the case, else it should return false.
-  /*bool buttonShouldBeVisible() {
-   //c1:
+  bool buttonShouldBeVisible() {
+    //c1:
     if (_storyNumber <= 2) {
       return true;
     } else {
       return false;
     }
-   // c2:
+    // c2:
 
     //return _storyNumber <= 2 ? true : false;
-
   }
-  */
 }
